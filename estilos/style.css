@@ -18,7 +18,7 @@ branco
 }
 
 body , html{
-    background-color:#5f2c82 ;
+    background-color:#874dad ;
     height: 100vh;
     width: 100vw;
 }
@@ -67,3 +67,51 @@ div#formulario > h1{
 div#formulario > p{
     font-size: 0.8em;
 }
+
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 30px;
+    background-color:#5eccc8 ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form > input[type=submit]:hover{
+    background-color: #367976;
+}
+ form > a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #72eee88c;
+    padding-top: 7px;
+    margin: 5px;
+    color: #49a09d;
+    border: 1px solid  #72eee88c;
+    border-radius: 5px;
+    text-decoration: none;
+ }
+ form > a.botao:hover{
+    background-color: #193837;
+ }
+
+ form > a.botao > i {
+    font-size: 0.8em;
+ }
+ .campo > label{
+display: none;
+ }
+
+ form > .campo{
+    background-color: #b97ee0;
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0px;
+    border-radius: 5px;
+ }
